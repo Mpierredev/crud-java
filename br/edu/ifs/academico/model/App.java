@@ -15,7 +15,6 @@ public class App {
         ArrayList<Reitor> listaReitores = new ArrayList<Reitor>();
         ArrayList<Aluno> listaAlunos = new ArrayList<Aluno>();
 
-
         int opcao = input.nextInt();
 
         String nome;
@@ -25,7 +24,6 @@ public class App {
 
         while (opcao != 0){
             switch (opcao) {
-
                 case 1:
                     System.out.println("Cadastrar aluno:");
                     System.out.println("Nome");
@@ -42,13 +40,11 @@ public class App {
                     aluno.setSexo(sexo);
                     listaAlunos.add(aluno);
                     break;
-
                 case 2:
                     System.out.println("Listar alunos:");
                     System.out.println("Lista de alunos");
                     System.out.println(listaAlunos);
                     break;
-
                 case 3:
                     System.out.println("Cadastrar professor:");
                     System.out.println("Nome");
@@ -67,15 +63,12 @@ public class App {
                     String formacao = input.next();
                     professor.setFormacao(formacao);
                     listaProfessores.add(professor);
-
                     break;
-
                 case 4:
                     System.out.println("Listar professor:");
                     System.out.println("Lista de professores");
                     System.out.println(listaProfessores);
                     break;
-
                 case 5:
                     System.out.println("Cadastrar psicologo:");
                     System.out.println("Nome");
@@ -101,13 +94,11 @@ public class App {
                     psicologo.setEspecialidade(especialidade);
                     listaPsicologos.add(psicologo);
                     break;
-
                 case 6:
                     System.out.println("Listar psicologo:");
                     System.out.println("Lista de psicologos");
                     System.out.println(listaPsicologos);
                     break;
-
                 case 7:
                     System.out.println("Cadastrar pedagogo:");
                     System.out.println("Nome");
@@ -130,13 +121,11 @@ public class App {
                     pedagogo.setExperiencia(experiencia);
                     listaPedagogos.add(pedagogo);
                     break;
-
                 case 8:
                     System.out.println("Listar pedagogo:");
                     System.out.println("Lista de pedagogos");
                     System.out.println(listaPedagogos);
                     break;
-
                 case 9:
                     System.out.println("Cadastrar técnico:");
                     System.out.println("Nome");
@@ -159,13 +148,11 @@ public class App {
                     tecnico.setAreaAtuacao(areaAtuacao);
                     listaTecnicos.add(tecnico);
                     break;
-
                 case 10:
                     System.out.println("Listar técnico");
                     System.out.println("Lista de técnicos");
                     System.out.println(listaTecnicos);
                     break;
-
                 case 11:
                     System.out.println("Cadastrar reitor");
                     System.out.println("Nome");
@@ -191,7 +178,6 @@ public class App {
                     reitor.setVotosRecebidos(votosRecebidos);
                     listaReitores.add(reitor);
                     break;
-
                 case 12:
                     System.out.println("Listar reitor");
                     System.out.println("Lista de reitores");

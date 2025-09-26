@@ -4,9 +4,9 @@ public class Pedagogo extends Pessoa{
     private int anoFormacao;
     private String experiencia;
 
-        public Pedagogo(String nome) {
-            super(nome);
-        }
+    public Pedagogo(String nome) {
+        super(nome);
+    }
 
     public int getAnoFormacao() {
         return anoFormacao;

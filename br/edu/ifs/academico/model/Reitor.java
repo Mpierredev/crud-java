@@ -5,9 +5,9 @@ public class Reitor extends Pessoa {
     private String dataExoneracao;
     private int votosRecebidos;
 
-        public Reitor(String nome) {
-            super(nome);
-        }
+    public Reitor(String nome) {
+        super(nome);
+    }
 
     public String getDataPosse() {
         return dataPosse;

@@ -5,9 +5,9 @@ public class Psicologo extends Pessoa{
     private String classe;
     private String especialidade;
 
-        public Psicologo(String nome) {
-            super(nome);
-        }
+    public Psicologo(String nome) {
+        super(nome);
+    }
 
     public double getNumeroCRP() {
         return numeroCRP;

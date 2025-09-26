@@ -4,9 +4,9 @@ public class Tecnico extends Pessoa{
     private String nivelFormacao;
     private String areaAtuacao;
 
-        public Tecnico(String nome) {
-            super(nome);
-        }
+    public Tecnico(String nome) {
+        super(nome);
+    }
 
     public String getNivelFormacao() {
         return nivelFormacao;
