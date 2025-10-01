@@ -1,6 +1,9 @@
 package br.edu.ifs.academico.model;
 
 public class Pessoa {
+
+    private String cpf;
+
     public Pessoa(String nome) {
         this.nome = nome;
     }
@@ -10,6 +13,12 @@ public class Pessoa {
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    public String getCpf() {
+        return cpf;
+    }
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
     public String getLocalNascimento() {
         return localNascimento;
@@ -33,4 +42,5 @@ public class Pessoa {
     private String localNascimento;
     private String dataNascimento;
     private char sexo;
+    // CPF já está disponível para todas as subclasses
 }

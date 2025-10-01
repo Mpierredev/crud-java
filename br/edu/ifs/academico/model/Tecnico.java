@@ -23,4 +23,16 @@ public class Tecnico extends Pessoa{
     public void setAreaAtuacao(String areaAtuacao) {
         this.areaAtuacao = areaAtuacao;
     }
+    @Override
+    public String toString() {
+        return "Tecnico{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", dataNascimento='" + getDataNascimento() + '\'' +
+                ", localNascimento='" + getLocalNascimento() + '\'' +
+                ", sexo='" + getSexo() + '\'' +
+                ", nivelFormacao='" + nivelFormacao + '\'' +
+                ", areaAtuacao='" + areaAtuacao + '\'' +
+                '}';
+    }
 }

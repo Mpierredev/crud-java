@@ -32,4 +32,17 @@ public class Psicologo extends Pessoa{
     public void setEspecialidade(String especialidade) {
         this.especialidade = especialidade;
     }
+    @Override
+    public String toString() {
+        return "Psicologo{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", dataNascimento='" + getDataNascimento() + '\'' +
+                ", localNascimento='" + getLocalNascimento() + '\'' +
+                ", sexo='" + getSexo() + '\'' +
+                ", numeroCRP=" + numeroCRP +
+                ", classe='" + classe + '\'' +
+                ", especialidade='" + especialidade + '\'' +
+                '}';
+    }
 }

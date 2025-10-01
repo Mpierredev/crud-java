@@ -23,4 +23,16 @@ public class Pedagogo extends Pessoa{
     public void setExperiencia(String experiencia) {
         this.experiencia = experiencia;
     }
+    @Override
+    public String toString() {
+        return "Pedagogo{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", dataNascimento='" + getDataNascimento() + '\'' +
+                ", localNascimento='" + getLocalNascimento() + '\'' +
+                ", sexo='" + getSexo() + '\'' +
+                ", anoFormacao=" + anoFormacao +
+                ", experiencia='" + experiencia + '\'' +
+                '}';
+    }
 }

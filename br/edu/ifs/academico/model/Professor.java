@@ -14,4 +14,15 @@ public class Professor extends Pessoa{
     public void setFormacao(String formacao) {
         this.formacao = formacao;
     }
+    @Override
+    public String toString() {
+        return "Professor{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", dataNascimento='" + getDataNascimento() + '\'' +
+                ", localNascimento='" + getLocalNascimento() + '\'' +
+                ", sexo='" + getSexo() + '\'' +
+                ", formacao='" + formacao + '\'' +
+                '}';
+    }
 }

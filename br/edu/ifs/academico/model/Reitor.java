@@ -32,4 +32,17 @@ public class Reitor extends Pessoa {
     public void setVotosRecebidos(int votosRecebidos) {
         this.votosRecebidos = votosRecebidos;
     }
+    @Override
+    public String toString() {
+        return "Reitor{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", dataNascimento='" + getDataNascimento() + '\'' +
+                ", localNascimento='" + getLocalNascimento() + '\'' +
+                ", sexo='" + getSexo() + '\'' +
+                ", dataPosse='" + dataPosse + '\'' +
+                ", dataExoneracao='" + dataExoneracao + '\'' +
+                ", votosRecebidos=" + votosRecebidos +
+                '}';
+    }
 }

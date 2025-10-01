@@ -17,10 +17,11 @@ public class App {
 
         int opcao = input.nextInt();
 
-        String nome;
-        String dataNascimento;
-        String localNascimento;
-        char sexo;
+    String nome;
+    String cpf;
+    String dataNascimento;
+    String localNascimento;
+    char sexo;
 
         while (opcao != 0){
             switch (opcao) {
@@ -29,6 +30,9 @@ public class App {
                     System.out.println("Nome");
                     nome = input.next();
                     Aluno aluno = new Aluno(nome);
+                    System.out.println("CPF");
+                    cpf = input.next();
+                    aluno.setCpf(cpf);
                     System.out.println("Data Nascimento");
                     dataNascimento = input.next();
                     aluno.setDataNascimento(dataNascimento);
@@ -50,6 +54,9 @@ public class App {
                     System.out.println("Nome");
                     nome = input.next();
                     Professor professor = new Professor(nome);
+                    System.out.println("CPF");
+                    cpf = input.next();
+                    professor.setCpf(cpf);
                     System.out.println("Data Nascimento");
                     dataNascimento = input.next();
                     professor.setDataNascimento(dataNascimento);
@@ -74,6 +81,9 @@ public class App {
                     System.out.println("Nome");
                     nome = input.next();
                     Psicologo psicologo = new Psicologo(nome);
+                    System.out.println("CPF");
+                    cpf = input.next();
+                    psicologo.setCpf(cpf);
                     System.out.println("Data Nascimento");
                     dataNascimento = input.next();
                     psicologo.setDataNascimento(dataNascimento);
@@ -104,6 +114,9 @@ public class App {
                     System.out.println("Nome");
                     nome = input.next();
                     Pedagogo pedagogo = new Pedagogo(nome);
+                    System.out.println("CPF");
+                    cpf = input.next();
+                    pedagogo.setCpf(cpf);
                     System.out.println("Data Nascimento");
                     dataNascimento = input.next();
                     pedagogo.setDataNascimento(dataNascimento);
@@ -131,6 +144,9 @@ public class App {
                     System.out.println("Nome");
                     nome = input.next();
                     Tecnico tecnico = new Tecnico(nome);
+                    System.out.println("CPF");
+                    cpf = input.next();
+                    tecnico.setCpf(cpf);
                     System.out.println("Data Nascimento");
                     dataNascimento = input.next();
                     tecnico.setDataNascimento(dataNascimento);
@@ -158,6 +174,9 @@ public class App {
                     System.out.println("Nome");
                     nome = input.next();
                     Reitor reitor = new Reitor(nome);
+                    System.out.println("CPF");
+                    cpf = input.next();
+                    reitor.setCpf(cpf);
                     System.out.println("Data Nascimento");
                     dataNascimento = input.next();
                     reitor.setDataNascimento(dataNascimento);

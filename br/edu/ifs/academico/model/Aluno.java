@@ -23,4 +23,16 @@ public class Aluno extends Pessoa{
     public void setNota2(double nota2) {
         this.nota2 = nota2;
     }
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", dataNascimento='" + getDataNascimento() + '\'' +
+                ", localNascimento='" + getLocalNascimento() + '\'' +
+                ", sexo='" + getSexo() + '\'' +
+                ", nota1=" + nota1 +
+                ", nota2=" + nota2 +
+                '}';
+    }
 }
